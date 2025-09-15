@@ -31,7 +31,7 @@ Mint Mono は、開発者向けフォントの [Intel One Mono](https://github.c
 
 | 通常版 (幅比率 半角1:全角2) | 35版 (幅比率 半角3:全角5) |
 | :---: | :---: |
-| TODO | TODO |
+| <img width="839" height="474" alt="image" src="https://github.com/user-attachments/assets/d74c6526-d9f2-458d-b9f3-d4136410d5c3" /> | <img width="812" height="479" alt="image" src="https://github.com/user-attachments/assets/32a5b04f-0c5a-41e9-bf7b-ca83e7c5d94c" /> |
 
 ## ビルド
 
